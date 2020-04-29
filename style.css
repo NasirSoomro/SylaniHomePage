@@ -146,4 +146,26 @@ f
   .Copy{     text-align: left; background-color: blue; 
 padding: 10px;  
   }
+  .black{ display: flex; flex-direction: row; ; background-color: #25272e; color: white; 
+    justify-content: space-around
+
+  }
+  .black > div{ text-align: justify; margin-left: 10px;
+        min-height: 300px; padding-top: 50px;
+  }
+  .fa-facebook { display: block;  
+    background: #3B5998;
+  }
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa { border: 1px solid; background-color:blue; color: white;
+    padding: 10 px;
+    font-size: 20 px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
   
