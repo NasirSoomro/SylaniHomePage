@@ -1,0 +1,25 @@
+ 
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.home ul li{
+    display: inline-block;
+}
+.showinline{
+    display: inline-block  ;
+}
+.home ul li a{ color: #000; margin-right: 40px;
+     padding: 5px 15px ;
+}
+.home{ float: right;
+   margin-top: 25px;
+}
+.slogo{
+    float: left;
+}
+.clear{
+    clear: both;
+}
