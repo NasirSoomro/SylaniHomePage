@@ -1,0 +1,7 @@
+.jumanjee{ 
+    display: flex; background-color:#2755e9;
+     flex-direction: row;
+}
+.jumanjee div{ height: 250px; padding-top: 100px; font-size:  large; font-weight: bold; font-family:'Times New Roman', Times, serif ;
+    text-align: center; width: 300px; flex-wrap:  wrap;
+}
