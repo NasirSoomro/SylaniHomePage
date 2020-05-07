@@ -7,17 +7,31 @@
 .firsttabicon:hover { border: blue;  cursor: pointer;
 
 }
+.head{ margin-left: 29px; border: none;
+
+}
 .containericon i{ margin: 0 10px;  margin-right: 10px;
 
 }
-.container{ width: 1200px; margin: 0 auto; padding: 10px;
+.container{ width: 1200px; margin: 0 auto; padding: 10px; 
+ 
+}
+.tab2{ position: sticky;
+  top: 0;
+background-color: #f7f8fa;
+
+}
+.sule{ width: 1200px; margin: 0 auto; padding: 10px;
+
+}
+.sule i{ color: white;
 
 }
    .tabinline{   display: inline-block;  float: left; flex-wrap: wrap; 
 
 }  
 .tabinline a{ border: 1px solid black; padding: 3px; margin-left: 10px; color: #000; background-color: whitesmoke;
-
+ 
 }
 .millions{  
 
@@ -119,12 +133,19 @@ button:hover { padding: 10px 15px 5px 15px; border-radius: 5mm;
     margin: 10px; min-height: 180px; text-align: center; padding-top: 20px;
   ;  font-weight: bold; font-size: 15pt;
   }
-  .kulduq{ background: #2755e9; display: flex; flex-wrap: wrap; padding: 100px;
+  .kulduq{ background: #2755e9; display: flex; flex-wrap: wrap; padding-left: 70px;
 
   }
-  .kulduq div{ color: white;  text-align: center; margin: 30px;
+  .kulduq div{ color: white;  text-align: center; margin: 18px; line-height: 40px ;
 
   }
+  .kulduq p,span{
+    font-size: 15pt; font-weight:bold; font-family: 'Times New Roman', Times, serif;
+  }
+  .gool,.month{
+    font-size: 15pt; font-weight:bold; font-family: 'Times New Roman', Times, serif;
+  }
+
 
 
 
